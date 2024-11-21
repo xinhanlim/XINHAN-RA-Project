@@ -1,0 +1,31 @@
+html{
+ background-color: #282828;
+}
+h1{
+    color: #fefefe;
+}
+
+h2{
+    color:#fefefe;
+}
+
+li, p{
+    color:#fefefe
+}
+
+.boxes{
+    height:100px;
+    width:100px;
+    border: yellow 3px solid;
+    position: absolute;
+    
+}
+#section1{
+    height:100vh;
+    background-color: red;
+}
+
+#section2{
+    height:100vh;
+    background-color: blue;
+}

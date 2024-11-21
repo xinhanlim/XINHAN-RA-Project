@@ -1,0 +1,17 @@
+@media only screen and (min-width: 600px){
+    body{
+        background-color:red;
+    }
+} 
+
+@media only screen and (min-width: 750px){
+    body{
+        background-color:blue;
+    }
+} 
+
+@media only screen and (min-width: 850px){
+    body{
+        background-color:yellow;
+    }
+} 
