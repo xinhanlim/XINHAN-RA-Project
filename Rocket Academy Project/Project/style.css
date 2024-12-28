@@ -1,0 +1,244 @@
+.container{
+    display: flex;
+    margin: 0px 0px;
+    padding: 16px 0px;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+}
+
+.nav-link{
+    color: #00316c;
+}
+
+#ljsNav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: flex-end;
+}
+
+/* .nav-link{
+    padding: 8px 24px;
+} */
+
+#carouselExampleFade{
+    max-width: 100%;
+    max-height: fit-content;
+
+}
+.promo{
+    display: flex;
+    margin: auto;
+    padding: 32px 0px 32px 0px;
+    max-width: 70%;
+    max-height: fit-content;
+
+}
+
+.about{
+    flex-wrap: wrap;
+    padding: 60px 0%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #00316c;
+    background-color: #f4d34c;
+    padding: 0px 16px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00316c;
+    padding: 8px 16px;
+    background-color: #f4d34c;
+    
+}
+
+.header{
+    width: 100%;
+    margin: 32px 0px;
+    text-align: center;
+    font-size: 64px;
+}
+
+main{
+    background-color: #00316c;
+    padding: 0px 0px 60px 0px;
+}
+
+#menu{
+    display: flex;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px ;
+
+}
+
+.col{
+
+    max-width: 100%;
+    height: fit-content;
+}
+
+.card-title{
+    text-align: center;
+    color: #00316c;
+}
+
+.card-text{
+    font-size: 12px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    margin: 0px;
+    padding: 0px 60px 32px 60px;
+    justify-content: flex-start;
+    background-color: #f4d34c;
+    flex-direction: column;
+}
+
+.footerBrand{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+    font-size: 124px;
+    text-align: center;
+}
+
+.footerContact{
+    text-align: center;
+}
+#form{
+    padding: 0px 60px;
+}
+
+
+#aboutUs{
+    display: flex;
+    margin: 0px;
+    padding: 32px 0px 32px 0px;
+    max-width: 70%;
+    max-height: fit-content;
+
+}
+
+.about{
+    padding: 0px 0px 24px 0px;
+}
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  #f4d34c;
+     
+}
+
+.historyImage{
+    width: 50%;
+    padding: 0px 0px 24px 0px;
+}
+
+.stallPhoto{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+#location{
+    width: auto;
+    padding: 32px 60px;
+
+}
+
+.cardLoca{
+    background-color: #f4d34c;
+    padding: 16px;
+    width: auto;
+    height: fit-content;
+}
+
+.card{
+    border: 0px;
+}
+
+.locaText{
+    padding: 4px 8px;
+    font-size: 20px;
+}
+
+.locaDesc{
+    padding: 4px 8px 0px 4px;
+    font-size: 12px;
+}
+
+.cardInside{
+    height: fit-content;
+}
+
+#career{
+    padding: 0px 60px 60px 60px;
+}
+
+.hiringPhoto{
+    width: 100%;
+
+}
+
+.hiringContext{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.hiring{
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hiringDesc{
+    /* background-color: #f4d34c; */
+    width: 1000px;
+    justify-content: space-evenly;
+    padding: 0px 32px 24px 16px;
+}
+
+.hiringStyle{
+    background-color: #00316c;
+    color: #f4d34c;
+    padding: 0px 0px 16px 0px;
+}
+.hiringStyle2{
+    background-color: #00316c;
+    color: #f4d34c;
+    padding: 16px 0px 16px 0px;
+    margin: 0px;
+}
+
+.contactBtn{
+    width: 56px;
+}
+
+.contactLink{
+    display: flex;
+    width: 136px;
+    justify-content: space-between;
+}
